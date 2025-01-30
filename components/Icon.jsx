@@ -1,7 +1,10 @@
 
 function Menu(){
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu">   <g>     <g>       <rect fill="currentColor" width="18" height="2" x="3" y="11" rx=".95" ry=".95"></rect>       <rect fill="currentColor" width="18" height="2" x="3" y="16" rx=".95" ry=".95"></rect>       <rect fill="currentColor" width="18" height="2" x="3" y="6" rx=".95" ry=".95"></rect>     </g>   </g> </svg> 
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="12" width="30" height="4" fill="currentColor"/>
+  <rect x="5" y="24" width="30" height="4" fill="currentColor"/>
+</svg>
     )
 }
 
