@@ -1,3 +1,4 @@
+"use client"
 import {Arrow, Linkedin, Github} from "./Icon"
 import Image from "next/image"
 
@@ -9,19 +10,19 @@ export default function Hero(){
           HI, I AM AYOMIDE OLALEYE
         </h1>
         <p className="leading-[160%]">
-          A Nigeria based front-end developer <br /> passionate about building accessible and iser friendly websites.
+          A Nigeria based front-end developer <br /> passionate about building accessible and user friendly websites.
         </p>
         <div className="flex gap-4 items-center">
-          <button className="bg-primary text-black flex items-center pl-4 p-[5px] rounded-[100px] gap-[12px]">
+          <button onClick={() => open("https://wa.me/+2347014329650")} className="bg-primary text-black flex items-center pl-4 p-[5px] rounded-[100px] gap-[12px]">
             CONTACT ME
             <span className="p-[10px] rounded-full bg-black text-white">
               <Arrow />
             </span>
           </button>
-          <a href="/" className="text-primary p-[10px] bg-foreground rounded-full">
+          <a href="https://linkedin.com" target="_blank" className="text-primary p-[10px] bg-foreground rounded-full">
             <Linkedin />
           </a>
-          <a href="linkedin.com" className="text-primary p-[10px] bg-foreground rounded-full" target="_blank">
+          <a href="https://github.com/OlaleyeAg20" className="text-primary p-[10px] bg-foreground rounded-full" target="_blank">
             <Github />
           </a> 
         </div> 
